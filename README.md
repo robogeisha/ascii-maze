@@ -12,6 +12,7 @@ Run the compiled program with ./maze
 Use the arrow keys to navigate the red square through the maze.
 When you reach the exit, a new maze will be generated, and the player starts at the new entry point.
 Press 'CTRL + C' to exit the game.
+
 Code Explanation:
 
 The code defines the maze's width and height as constants.
@@ -21,10 +22,13 @@ The ShowMaze function prints the current maze state, including the player's red 
 The MoveSquare function processes user input to move the red square within the maze.
 The getch function reads a single character input without echoing it to the screen.
 The main function orchestrates the maze generation, user input handling, and maze display. It also checks for the player's position at the exit and generates a new maze if needed.
+
+
 Dependencies:
 
 This code requires the C standard library.
 The code has been tested on Unix-like systems (macOS, Linux) and may not work as expected on other platforms.
+
 Note:
 
 The game might experience some occasional jittering due to the terminal's rendering limitations.
