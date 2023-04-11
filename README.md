@@ -2,7 +2,7 @@
 
 
 
-Description:
+
 This simple terminal-based maze game generates random mazes with a single entry and exit point. The player controls a red square that moves through the maze using the arrow keys. The goal is to navigate from the entry point to the exit point. When the player reaches the exit, a new maze is generated, and the player starts again at the new entry point.
 
 Instructions:
